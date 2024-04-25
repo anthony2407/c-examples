@@ -4,14 +4,19 @@
 int main() {
 
     int v;
+    int f5;
 
     // Llama a las 3 funciones
     funcion1();
     funcion2(5, 2.67);
     v = funcion3(10);
+    f5 = funcion5(10);
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
+    // Antony
+    printf("f5 = %d\n", f5);
+
 
     return 0;
 
@@ -33,5 +38,11 @@ void funcion2(int a, float b) {
 int funcion3(int x) {
     printf("En funcion3()...\n");
     int y = x + 2;
+    return y;
+}
+// Antony
+int funcion5(int x) {
+    printf("En funcion3()...\n");
+    int y = x + 5;
     return y;
 }

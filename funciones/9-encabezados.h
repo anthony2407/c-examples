@@ -2,3 +2,5 @@
 void funcion1(void);
 void funcion2(int, float);
 int funcion3(int);
+// Antony
+int funcion5(int);
