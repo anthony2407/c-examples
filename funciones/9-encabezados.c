@@ -6,15 +6,20 @@ int main() {
 
     int v;
     int f4;
+    int f5;
 
     // Llama a las 3 funciones
     funcion1();
     funcion2(5, 2.67);
     v = funcion3(10);
     f4 = funcion4(10);
+    f5 = funcion5(10);
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
+    // Antony
+    printf("f5 = %d\n", f5);
+
 
     //funcion4
     printf("f4 = %d\n", f4);
@@ -43,7 +48,13 @@ int funcion3(int x) {
 }
 // Desarrollo por Antony
 int funcion4(int x) {
-    printf("En funcion3()...\n");
+    printf("En funcion4()...\n");
     int y = x - 2;
+    return y;
+}
+// Antony
+int funcion5(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 5;
     return y;
 }
