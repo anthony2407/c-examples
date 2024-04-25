@@ -42,7 +42,7 @@ int funcion3(int x) {
 }
 // Antony
 int funcion5(int x) {
-    printf("En funcion3()...\n");
+    printf("En funcion5()...\n");
     int y = x + 5;
     return y;
 }
